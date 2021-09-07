@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="style.css">
+    <title>Ecommerce</title>
+<body>
+    <div class="overlay" id="loading-overlay">Loading...</div>
+    <div class="overlay" id="message-overlay"></div>
+    <div class="wrapper">
+        <header id="header-container">
+            <!--<div class="logo">
+                <a href="/#/"><i class="fas fa-umbrella"></i></a>
+            </div>
+            <div class="container">
+                <input type="text" name="" placeholder="search">
+                <a class="search" href=""><i class="material-icons">search</i></a>
+            </div>
+            <div class="icons">
+                <a href="/#/signin"><i class="far fa-user"></i>Account</a>
+                <a href="/#/myitems"><i class="far fa-heart"></i>My Items</a>
+                <a href="/#/cart"><i class="material-icons">shopping_cart</i></a>
+            </div>-->
+        </header>
+        <main id="main-container">
+            <!--<div class="name">
+                <h2>TROUSERS</h2>
+            </div>
+            <div>
+                <ul class="products">
+                    <li>
+                        <div class="product">
+                            <a href="/#/product/1">
+                                <img src="/images/1.jpg" alt="product 1" />
+                            </a>
+                            <div class="product-name">
+                            <a href="/#/product/1">
+                                Engin Akyurt
+                            </a>
+                        </div>
+                        <div class="product-price">
+                            $6.45
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <a href="/#/product/2">
+                                <img src="/images/2.jpg" alt="product 2" />
+                            </a>
+                            <div class="product-name">
+                                <a href="/#/product/2">
+                                    Pesce Huang
+                                </a>
+                            </div>
+                            <div class="product-price">
+                                $12
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <a href="/#/product/3">
+                                <img src="/images/3.jpg" alt="product 3" />
+                            </a>
+                            <div class="product-name">
+                                <a href="/#/product/3">
+                                    Frank Flores
+                                </a>
+                            </div>
+                            <div class="product-price">
+                                $32
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <a href="/#/product/4">
+                                <img src="/images/4.jpg" alt="product 4" />
+                            </a>
+                            <div class="product-name">
+                                <a href="/#/product/4">
+                                    Very Pretty Girl
+                                </a>
+                            </div>
+                            <div class="product-price">
+                                $11.4
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="products">
+                    <li>
+                        <div class="product">
+                            <a href="/#/product/5">
+                                <img src="/images/5.jpg" alt="product 5" />
+                            </a>
+                            <div class="product-name">
+                            <a href="/#/product/5">
+                                Dane Walton
+                            </a>
+                        </div>
+                        <div class="product-price">
+                            $5.4
+                        </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <a href="/#/product/6">
+                                <img src="/images/6.jpg" alt="product 6" />
+                            </a>
+                            <div class="product-name">
+                                <a href="/#/product/6">
+                                    Dollar Gill
+                                </a>
+                            </div>
+                            <div class="product-price">
+                                $72.4
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <a href="/#/product/7">
+                                <img src="/images/7.jpg" alt="product 7" />
+                            </a>
+                            <div class="product-name">
+                                <a href="/#/product/7">
+                                    Tamara Bellis
+                                </a>
+                            </div>
+                            <div class="product-price">
+                                $19
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <a href="/#/product/8">
+                                <img src="/images/8.jpg" alt="product 8" />
+                            </a>
+                            <div class="product-name">
+                                <a href="/#/product/8">
+                                    Bibek Thakuri
+                                </a>
+                            </div>
+                            <div class="product-price">
+                                $76
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="name">
+                <h2>JEANS</h2>
+            </div>
+            <div>
+                <ul class="products">
+                    <li>
+                        <div class="product">
+                            <a href="/#/product/9">
+                                <img src="/images/9.jpg" alt="product 9" />
+                            </a>
+                            <div class="product-name">
+                            <a href="/#/product/9">
+                                Dani Navarro
+                            </a>
+                        </div>
+                        <div class="product-price">
+                            $8.45
+                        </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <a href="/#/product/10">
+                                <img src="/images/10.jpg" alt="product 10" />
+                            </a>
+                            <div class="product-name">
+                                <a href="/#/product/10">
+                                    Vladimir Fedotov
+                                </a>
+                            </div>
+                            <div class="product-price">
+                                $17.34
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <a href="/#/product/11">
+                                <img src="/images/11.jpg" alt="product 11" />
+                            </a>
+                            <div class="product-name">
+                                <a href="/#/product/11">
+                                    Sebastian Pociecha
+                                </a>
+                            </div>
+                            <div class="product-price">
+                                $62.4
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <a href="/#/product/12">
+                                <img src="/images/12.jpg" alt="product 12" />
+                            </a>
+                            <div class="product-name">
+                                <a href="/#/product/12">
+                                    Kelly Fournier
+                                </a>
+                            </div>
+                            <div class="product-price">
+                                $34.4
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="products">
+                    <li>
+                        <div class="product">
+                            <a href="/#/product/13">
+                                <img src="/images/13.jpg" alt="product 13" />
+                            </a>
+                            <div class="product-name">
+                            <a href="/#/product/13">
+                                Edwin Braham
+                            </a>
+                        </div>
+                        <div class="product-price">
+                            $8.4
+                        </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <a href="/#/product/14">
+                                <img src="/images/14.jpg" alt="product 14" />
+                            </a>
+                            <div class="product-name">
+                                <a href="/#/product/14">
+                                    Tim Schmidbauer
+                                </a>
+                            </div>
+                            <div class="product-price">
+                                $32.4
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <a href="/#/product/15">
+                                <img src="/images/15.jpg" alt="product 15" />
+                            </a>
+                            <div class="product-name">
+                                <a href="/#/product/15">
+                                    Kizkopop
+                                </a>
+                            </div>
+                            <div class="product-price">
+                                $13.2
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <a href="/#/product/16">
+                                <img src="/images/16.jpg" alt="product 16" />
+                            </a>
+                            <div class="product-name">
+                                <a href="/#/product/16">
+                                    Silvin Bejamin Tofan
+                                </a>
+                            </div>
+                            <div class="product-price">
+                                $43.5
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="name">
+                <h2>SHOES</h2>
+            </div>
+            <div>
+                <ul class="products">
+                    <li>
+                        <div class="product">
+                            <a href="/#/product/17">
+                                <img src="/images/17.jpg" alt="product 17" />
+                            </a>
+                            <div class="product-name">
+                            <a href="/#/product/17">
+                                Tamara Bellis
+                            </a>
+                        </div>
+                        <div class="product-price">
+                            $8.45
+                        </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <a href="/#/product/18">
+                                <img src="/images/18.jpg" alt="product 18" />
+                            </a>
+                            <div class="product-name">
+                                <a href="/#/product/18">
+                                    Vladimir Fedotov
+                                </a>
+                            </div>
+                            <div class="product-price">
+                                $17.34
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <a href="/#/product/19">
+                                <img src="/images/19.jpg" alt="product 19" />
+                            </a>
+                            <div class="product-name">
+                                <a href="/#/product/19">
+                                    Sebastian Pociecha
+                                </a>
+                            </div>
+                            <div class="product-price">
+                                $62.4
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <a href="/#/product/20">
+                                <img src="/images/20.jpg" alt="product 20" />
+                            </a>
+                            <div class="product-name">
+                                <a href="/#/product/20">
+                                    Kelly Fournier
+                                </a>
+                            </div>
+                            <div class="product-price">
+                                $34.4
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="products">
+                    <li>
+                        <div class="product">
+                            <a href="/#/product/21">
+                                <img src="/images/21.jpg" alt="product 21" />
+                            </a>
+                            <div class="product-name">
+                            <a href="/#/product/21">
+                                Edwin Braham
+                            </a>
+                        </div>
+                        <div class="product-price">
+                            $8.4
+                        </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <a href="/#/product/22">
+                                <img src="/images/22.jpg" alt="product 22" />
+                            </a>
+                            <div class="product-name">
+                                <a href="/#/product/22">
+                                    Tim Schmidbauer
+                                </a>
+                            </div>
+                            <div class="product-price">
+                                $32.4
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <a href="/#/product/23">
+                                <img src="/images/23.jpg" alt="product 23" />
+                            </a>
+                            <div class="product-name">
+                                <a href="/#/product/23">
+                                    Kizkopop
+                                </a>
+                            </div>
+                            <div class="product-price">
+                                $13.2
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="product">
+                            <a href="/#/product/24">
+                                <img src="/images/24.jpg" alt="product 24" />
+                            </a>
+                            <div class="product-name">
+                                <a href="/#/product/24">
+                                    Silvin Bejamin Tofan
+                                </a>
+                            </div>
+                            <div class="product-price">
+                                $43.5
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>-->
+        </main>
+        <footer>
+            <h2>&copy; 2021. All Rights Reserved</h2>
+            <div class="footer-icons">
+                <a href="/#/cart"><i class="fab fa-facebook"></i></a>
+                <a href="/#/cart"><i class="fab fa-twitter"></i></a>
+                <a href="/#/cart"><i class="fab fa-pinterest-p"></i></a>
+                <a href="/#/cart"><i class="fab fa-youtube"></i></a>
+            </div>
+        </footer>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
